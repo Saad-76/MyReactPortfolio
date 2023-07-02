@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Saad Mehmood </span>
             from <span className="purple"> Lahore, Pakistan.</span>
-            <br />I am a Software Engineer with core strength in Frontend Technologies.
+            <br />I am a Software Engineer with core strength in MERN stack .
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

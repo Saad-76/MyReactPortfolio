@@ -16,14 +16,14 @@ function Projects() {
             <ProjectCard
               videoUrl={videoUrl}
               isBlog={false}
-              title="Website Development Using React JS"
-              description={`Hello! I'm a highly skilled React.js developer with a passion for creating dynamic and interactive web applications. I have extensive experience working with React and its related technologies, such as Redux, Mobx state Tree and  MUI and I'm confident in my ability to bring your project vision to life.
+              title="Website Development Using Mern stack"
+              description={`Hello! I'm a highly skilled React.js and Node.js developer with a passion for creating dynamic and interactive web applications. I have extensive experience working with React and its related technologies, such as Redux, Mobx state Tree and  MUI and I'm confident in my ability to bring your project vision to life.
 
               My expertise lies in building scalable, high-performance web applications that are both user-friendly and visually appealing. I'm well-versed in the latest web development best practices, and I always strive to create code that is clean, maintainable, and easily understandable.
               
               Whether you need help with a single component or a complete web application.
               
-              Let's work together to create a stunning React.js web application that delivers the results you need. Contact me today to discuss your project!`}
+              Let's work together to create a stunning React.js , Node.js web application that delivers the results you need. Contact me today to discuss your project!`}
             />
           </Col>
 

@@ -18,7 +18,7 @@ function Home2() {
               <br />
               <br />I am fluent in
               <i>
-                <b className="purple"> Javascript, React JS, Vue JS, MUI, React Redux, MOBX State Tree. </b>
+                <b className="purple"> Javascript, React JS, Node JS, Express Js , MUI, React Redux </b>
               </i>
               <br />
               <br />
@@ -42,7 +42,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js Vue.js</b>
+                <b className="purple"> React.js Node.js</b>
               </i>
             </p>
           </Col>
@@ -81,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.freelancer.com/u/Zeshanmalik5055"
+                  href="https://www.freelancer.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

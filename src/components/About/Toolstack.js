@@ -29,7 +29,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku fill="#383bab"/>
-        <p className="animate-charcter" style={{ fontSize: '14px' }}> Heroku</p>
+        <p className="animate-charcter" style={{ fontSize: '14px' }}> AWS, Heroku</p>
       </Col>
     </Row>
   );

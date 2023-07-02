@@ -42,11 +42,11 @@ const Techstack = () => {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           < FaVuejs color="green" />
-          <p className="animate-charcter" style={{ fontSize: '14px' }}>Vue JS</p>
+          <p className="animate-charcter" style={{ fontSize: '14px' }}>Node  JS</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiMobxstatetree color="#e96d03" />
-          <p className="animate-charcter" style={{ fontSize: '14px' }}>Mobx</p>
+          <p className="animate-charcter" style={{ fontSize: '14px' }}>Express Js</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons" >
           <SiMaterialui color="#4180ff" />
