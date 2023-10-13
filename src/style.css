@@ -18,6 +18,16 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+
+.purple-btn {
+  background-color: var(--imp-text-color) !important;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: none;
+  cursor: pointer;
+  border: none;
+}
+
 button:focus {
   box-shadow: none !important;
 }

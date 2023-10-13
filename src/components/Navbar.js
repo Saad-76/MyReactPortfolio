@@ -7,14 +7,14 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import style from '../App.css'
+import style from "../App.css";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -22,7 +22,7 @@ function NavBar() {
   let location = useLocation();
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-console.log("location", location)
+  console.log("location", location);
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -56,13 +56,13 @@ console.log("location", location)
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item  className = {location.pathname ==='/' && 'active'}>
+            <Nav.Item className={location.pathname === "/" && "active"}>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item  className = {location.pathname ==='/about' && 'active'}>
+            <Nav.Item className={location.pathname === "/about" && "active"}>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -72,7 +72,16 @@ console.log("location", location)
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className = {location.pathname ==='/project' && 'active'}>
+            <Nav.Item className={location.pathname === "/projects" && "active"}>
+              <Nav.Link
+                as={Link}
+                to="/projects"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item className={location.pathname === "/project" && "active"}>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -85,7 +94,7 @@ console.log("location", location)
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className = {location.pathname ==='/resume' && 'active'}>
+            <Nav.Item className={location.pathname === "/resume" && "active"}>
               <Nav.Link
                 as={Link}
                 to="/resume"
