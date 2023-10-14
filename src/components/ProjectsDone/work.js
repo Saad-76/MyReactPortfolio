@@ -3,72 +3,86 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import Dashboard from "../../Assets/Projects/Dasboard.jpg";
+import Mobl from "../../Assets/Projects/mobl.png"
+import MoblRes from "../../Assets/Projects/home-res.png"
+import Port from "../../Assets/Projects/App.png"
+import Auth from "../../Assets/Projects/Auth.png"
+import Register from "../../Assets/Projects/Register.png"
+import FullStack from "../../Assets/Projects/FullStack.png"
+import Contact from "../../Assets/Projects/Contact.png"
+import MoblCont from "../../Assets/Projects/MoblContact.png"
+import Branding from "../../Assets/Projects/Branding.png"
+import Digital from "../../Assets/Projects/Digital.png"
+import SignlePage from "../../Assets/Projects/SinglePage.png"
+
 
 const Work=()=> {
     const itemData = [
         {
-          img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
-          title: 'Bed',
-          author: 'swabdesign',
+          img: `${Mobl}`,
+          title: 'resposive',
+          author: 'Profile Responsive View',
         },
         {
-          img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
-          title: 'Books',
-          author: 'Pavel Nekoranec',
+          img: `${Contact}`,
+          title: 'Contact',
+          author: 'Contact Form',
         },
         {
-          img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
-          title: 'Sink',
-          author: 'Charles Deluvio',
+          img: `${Digital}`,
+          title: 'Digital',
+          author: 'Digital Inventions',
         },
         {
-          img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
-          title: 'Kitchen',
-          author: 'Christian Mackie',
+          img: `${Dashboard}`,
+          title: 'Dashboard',
+          author: 'Dashboard Design',
         },
         {
-          img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
-          title: 'Blinds',
-          author: 'Darren Richardson',
+          img: `${FullStack}`,
+          title: 'Full Stack',
+          author: 'Portfolio',
         },
         {
-          img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
-          title: 'Chairs',
-          author: 'Taylor Simpson',
+          img: `${Port}`,
+          title: 'Dashboard',
+          author: 'Dashboard Design',
         },
         {
-          img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
-          title: 'Laptop',
-          author: 'Ben Kolde',
+          img: `${Branding}`,
+          title: 'Branding',
+          author: 'Branding Site',
         },
         {
-          img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
-          title: 'Doors',
-          author: 'Philipp Berndt',
+          img: `${MoblCont}`,
+          title: 'Contact Form',
+          author: 'Contact Form',
         },
         {
-          img: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7',
-          title: 'Coffee',
-          author: 'Jen P.',
+          img: `${Register}`,
+          title: 'Register',
+          author: 'Register User Info',
         },
         {
-          img: 'https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee',
-          title: 'Storage',
-          author: 'Douglas Sheppard',
+          img: `${MoblRes}`,
+          title:'Home Responsive View',
+          author: 'Home Responsive View',
         },
         {
-          img: 'https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62',
-          title: 'Candle',
-          author: 'Fi Bell',
+          img: `${Auth}`,
+          title: 'Authentication Screen',
+          author: 'Authentication Screen',
         },
+        
         {
-          img: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4',
-          title: 'Coffee table',
-          author: 'Hutomo Abrianto',
+          img: `${SignlePage}`,
+          title: 'Single Page',
+          author: 'Single Page Application',
         },
       ];
   return (
-    <Box  sx={{display:"flex",justifyContent:"center"}}>
+    <Box  sx={{display:"flex",justifyContent:"center",padding:"20px 0px"}}>
     <Box sx={{ width: '80%', height: 450}}>
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (

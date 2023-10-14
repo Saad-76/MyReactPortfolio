@@ -24,7 +24,7 @@ const Main = () => {
           Solutions
         </p>
 
-        <a href="https://www.upwork.com/freelancers/~01c2ba10a966c005a3">
+        <a href="https://www.linkedin.com/in/saad-mehmood-537903213/" target="_blank">
           <button className="purple-btn">Connect with me </button>
         </a>
       </div>

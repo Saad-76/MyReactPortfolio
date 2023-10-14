@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Main from "./main";
 function ProjectsDone() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="projects-section">
       <Particle />
       <Main />
     </Container>
