@@ -71,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.fiverr.com/zeshan_5055?up_rollout=true"
+                  href="https://saad-portfolio-five.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
