@@ -1,7 +1,6 @@
 import React from "react";
 import "./projectDone.css";
 import Work from "./work";
-import FAQ from "./Faq";
 
 const Main = () => {
   return (
