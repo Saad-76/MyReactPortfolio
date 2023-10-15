@@ -1,6 +1,7 @@
 import React from "react";
 import "./projectDone.css";
 import Work from "./work";
+import FAQ from "./Faq";
 
 const Main = () => {
   return (
@@ -24,7 +25,10 @@ const Main = () => {
           Solutions
         </p>
 
-        <a href="https://www.linkedin.com/in/saad-mehmood-537903213/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/saad-mehmood-537903213/"
+          target="_blank"
+        >
           <button className="purple-btn">Connect with me </button>
         </a>
       </div>

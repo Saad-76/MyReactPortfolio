@@ -6,6 +6,7 @@ import {
   DiGit,
 } from "react-icons/di";
 import { FaVuejs } from "react-icons/fa";
+import {DiNodejs} from "react-icons/di"
 import {
   SiRedux,
   SiMobxstatetree,
@@ -41,7 +42,7 @@ const Techstack = () => {
           <p className="animate-charcter" style={{ fontSize: '14px' }}> Redux Saga</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          < FaVuejs color="green" />
+          < DiNodejs color="green" />
           <p className="animate-charcter" style={{ fontSize: '14px' }}>Node  JS</p>
         </Col>
         <Col xs={4} md={2} className="tech-icons">

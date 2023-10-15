@@ -12,6 +12,7 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  overflow-x: hidden;
 }
 
 .purple {
@@ -422,6 +423,7 @@ button:focus {
   position: fixed;
   /* padding-top: 10px !important;
   padding-bottom: 8px !important ; */
+  z-index: 100;
 }
 .footer-copywright {
   text-align: center !important;
@@ -472,7 +474,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/Home.png) !important;
+  /* background-image: url(./Assets/Home.png) !important; */
   width: 100vw !important;
   height: 100vh !important;
   background-repeat: no-repeat;
